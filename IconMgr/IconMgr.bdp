@@ -1,0 +1,20 @@
+[Attr]
+Auth = zhiyb @ GT-Soft
+BOPT = <No use> -L/mnt/tmp/qt-2.3.10/lib -Wl,-rpath,/mnt/tmp/qt-2.3.10/lib -lqte
+COPT = <No use> -c -I/mnt/tmp/qt-2.3.10/include -pipe -DQWS -fno-exceptions -fno-rtti -O2 -Wall -Wsign-compare -DNO_DEBUG
+Lang = C++
+autoMake = 0
+project = IconMgr
+version = 1.0
+[Files]
+File0 = ./main.cpp
+File1 = ./Makefile
+File2 = ./misc.h
+File3 = ./misc.cpp
+File4 = ./mainw.h
+File5 = ./mainw.cpp
+File6 = ./apps.h
+File7 = ./apps.cpp
+File8 = ./filedialog.h
+File9 = ./filedialog.cpp
+count = 8

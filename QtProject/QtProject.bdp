@@ -1,0 +1,16 @@
+[Attr]
+Auth = zhiyb @ GT-Soft
+BOPT = <No use> -L/mnt/tmp/qt-2.3.10/lib -Wl,-rpath,/mnt/tmp/qt-2.3.10/lib -lqte
+COPT = <No use> -c -I/mnt/tmp/qt-2.3.10/include -pipe -DQWS -fno-exceptions -fno-rtti -O2 -Wall -Wsign-compare -DNO_DEBUG
+Lang = C++
+autoMake = 0
+project = QtProject
+version = 1.0
+[Files]
+File0 = ./main.cpp
+File1 = ./class.cpp
+File2 = ./class.h
+File3 = ./misc.h
+File4 = ./misc.cpp
+File5 = ./Makefile
+count = 6

@@ -1,0 +1,21 @@
+[Attr]
+Auth = zhiyb
+BOPT = -lpthread
+COPT = 
+Lang = C
+autoMake = 1
+project = Five
+version = 3.2
+[Files]
+File0 = ./getch.c
+File1 = ./msgbox.c
+File10 = ./archive.c
+File2 = ./display.c
+File3 = ./Five.c
+File4 = ./state.c
+File5 = ./ai.c
+File6 = ./directory.h
+File7 = ./display.h
+File8 = ./keyboard.h
+File9 = ./msgbox.h
+count = 10
